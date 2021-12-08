@@ -1,0 +1,30 @@
+{
+    "name": "devsobsud/menu-manager",
+    "description": "Menu management package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sobha C Ashtaman",
+            "email": "sobha.ashtaman@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel":{
+            "providers": [
+                "DevSobSud\\MenuManager\\MenuManagerServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "DevSobSud\\MenuManager\\": "src"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "9.5.x-dev"
+    }
+}
