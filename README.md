@@ -1,2 +1,4 @@
-# menu-manager
-Plugin to manage website menu from admin side
+# Laravel Menu Manager - Manage your website menu
+Laravel menu manager is a package which helps you to manage your websites menu.
+
+#Installation
